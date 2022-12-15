@@ -1,0 +1,109 @@
+header{
+   position: sticky;
+   top:0;
+   z-index:2;
+   background-color: purple; 
+    padding: 20px;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    z-index:2;
+    padding: 10px;
+}
+.name{
+    display: inline-block;
+    margin-right: 200px;
+
+}
+
+.date{
+    display: inline-block;
+    margin-left: 750px;
+}
+
+.First-page{
+    border-top: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    background-color: lightblue;
+    font-size: 30px;
+    margin-right: 25%;
+    margin-left: 40%;
+    
+}
+.Second-page{
+    border-top: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: lightblue;
+}
+.Third-page{
+    border-top: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color: lightblue;
+
+}
+h1 {
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    font-size: 100px;
+  }
+
+img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+  
+.Middle-picture{
+    border: 2px solid black;
+}
+
+.Left-picture{
+    border-radius: 4px solid black;
+}
+
+#Second_food{
+    font-family:'Rubik Vinyl', cursive;
+}
+
+#Third_food{
+    font-weight: bold;
+}
+
+a:visited{
+    color:blue;
+}
+
+a:active{
+    color: red;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: darkblue;
+}
+
+button{
+    color: white;
+    background-color: blue;
+    padding: 8px;
+    margin-bottom: 100px;
+}
+
+
+table, th, td {
+    border: 1px solid purple;
+    margin: 2px;
+  }
+
+
+*{
+    background-color: pink;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
