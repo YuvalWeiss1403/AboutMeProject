@@ -2,8 +2,8 @@ header{
    position: sticky;
    top:0;
    z-index:2;
-   background-color: purple; 
-    padding: 20px;
+   background-color: rgb(202, 183, 202); 
+padding: 10px;
 }
 
 footer{
@@ -11,6 +11,7 @@ footer{
     bottom:0;
     z-index:2;
     padding: 10px;
+    background-color: gray;
 }
 .name{
     display: inline-block;
@@ -23,14 +24,22 @@ footer{
     margin-left: 750px;
 }
 
-.First-page{
+.headline{
     border-top: 20px;
     display: inline-block;
     margin-left: 5px;
-    background-color: lightblue;
     font-size: 30px;
     margin-right: 25%;
     margin-left: 40%;
+    font-family: cursive;
+    font: bold;
+}
+.First-page{
+    border-top: 20px;
+    margin-left: 5px;
+    border: 2px solid black;
+    display: inline-block;
+    border-radius: 5px;
     
 }
 .Second-page{
@@ -38,14 +47,8 @@ footer{
     margin-left: 5px;
     border: 2px solid black;
     display: inline-block;
-    background-color: lightblue;
-}
-.Third-page{
-    border-top: 20px;
-    margin-left: 5px;
-    border: 2px solid black;
-    display: inline-block;
-    background-color: lightblue;
+    border-radius: 5px;
+
 
 }
 h1 {
@@ -87,9 +90,10 @@ a:active{
 button:hover{
     cursor: pointer;
     background-color: darkblue;
+    font-size: larger;
 }
 
-button{
+.See-More{
     color: white;
     background-color: blue;
     padding: 8px;
@@ -103,7 +107,7 @@ table, th, td {
   }
 
 
-*{
-    background-color: pink;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+    background-color: rgb(238, 177, 192);
+    font-family:cursive;
 }
