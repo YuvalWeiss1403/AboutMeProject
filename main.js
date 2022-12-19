@@ -1,12 +1,10 @@
-function handleClick(id){
+function handleClick(){
     console.log("Element Clicked");
-    document.getElementById(id).style.color = "red";
-
+    document.getElementById("Places-I-Love").style.color = "red";  
+    document.getElementById("Contact-Me").style.color = "red";
 }
 
 
-function delayHandleClick(id){
-    setTimeout(() => {
-        
-    },handleClick(id),3000);
+function delayHandleClick(){
+    setTimeout(handleClick , 3000);
 }
