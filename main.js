@@ -10,9 +10,9 @@ function delayHandleClick(){
 }
 
 let checkIfClicked = false;
+let element = document.body;
+  function switchmode() {
   
-  function switchmode(event) {
-    var element = document.getElementById("Switch-Mode");
     if(!checkIfClicked){
             //change to dark mode
             element.classList.add("dark-mode");
