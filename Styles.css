@@ -3,7 +3,7 @@ header{
    top:0;
    z-index:2;
    background-color: rgb(202, 183, 202); 
-padding: 10px;
+   padding: 10px;
 }
 
 footer{
@@ -30,27 +30,37 @@ footer{
     margin-left: 5px;
     font-size: 30px;
     margin-right: 25%;
-    margin-left: 40%;
+    margin-left: 30%;
     font-family: cursive;
     font: bold;
 }
 .First-page{
     border-top: 20px;
     margin-left: 5px;
-    border: 2px solid black;
     display: inline-block;
-    border-radius: 5px;
+    font-family: cursive;
     
 }
 .Second-page{
     border-top: 20px;
     margin-left: 5px;
-    border: 2px solid black;
     display: inline-block;
-    border-radius: 5px;
-
-
+    font-family: cursive;
 }
+
+.switch-mode{
+    border-top: 20px;
+    margin-left: 5px;
+    display: inline-block;
+    font-family: cursive;
+}
+
+.dark-mode{
+    background-color: black;
+    color: white;
+    font-family:cursive;
+    }
+
 h1 {
     text-align: center;
     font-family: 'Rubik Vinyl', cursive;
@@ -89,8 +99,14 @@ a:active{
 
 button:hover{
     cursor: pointer;
-    background-color: darkblue;
     font-size: larger;
+    background-color: antiquewhite;
+}
+button:active{
+    background-color: beige;
+    color: cornflowerblue;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .See-More{
