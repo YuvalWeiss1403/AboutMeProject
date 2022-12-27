@@ -27,3 +27,16 @@ let element = document.body;
 
     }
   }
+
+  const favoriteFood = ["Coke","nuggets","strawberrys","chocolate"];
+  let makeList = `<ul>`;
+  for (let index = 0; index < favoriteFood.length; index++) {
+    const element = favoriteFood[index];
+    makeList += `<li>${element}</li>`;
+  }
+  makeList += `</ul>`;
+  console.log(makeList);
+  document.getElementById("favoriteFood").outerHTML = makeList;
+  
+
+  
