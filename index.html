@@ -5,6 +5,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik+Vinyl&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap'); </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,12 +18,14 @@
 <body>
     <header>
         <div class="headline">A bit about me</div>
-        <button class="First-page" id="Places-I-Love" onclick="delayHandleClick()">Places i love</button>
-        <button class="Second-page" id="Contact-Me" onclick="delayHandleClick()">Contact me</button>
-        <button class="switch-mode" id="Switch-Mode" onclick="switchmode()">Switch mode</button>
+        <button class="headerbuttons" id="First-page" onclick="delayHandleClick()">Places i love</button>
+        <button class="headerbuttons" id="Second-page" onclick="delayHandleClick()">Contact me</button>
+        <button class="headerbuttons" id="switch-mode" onclick="switchmode()">Switch mode</button>
     </header>
     <h1>Yuval Weiss</h1>
+    <div class="content">
     <h3>My name is Yuval Weiss,<br> I'm 21 years old and i live in petach tikva</h3>
+    <h4>Here There And Everywhere /Paul McCartney</h4>
     <p>
         Everywhere
         <br>
@@ -30,28 +35,24 @@
         <br>
         Watching her eyes, and hoping I'm always there
     </p>
-    <br><br>
+    </div>
 
-    <section>
+    <div class="gallery">
+    <section >
     <!-- <img class="Left-picture" src="/assets/computer-programming.jpeg" alt="computer-programming">
     <img class="Middle-picture" src="/assets/dance.jpg" alt="dance">
     <img class="Right-picture" src="/assets/nails.jpg" alt="nails"> -->
     </section>
-    
-    <h3>Favorite Foods</h3>
-    <!-- <ol>
-        <li>Coke</li>
-        <li id="Second_food">chocolate</li>
-        <li id="Third_food">strawberrys</li>
-        <li>nuggets</li>
-    </ol> -->
-    <div id="favoriteFood"></div>
-    <br><br>
+    </div>
 
-    <section>
+    <div class="favoriteFood">
+    <h3>Favorite Foods</h3>
+    <div id="favoriteFood"></div>
+    </div>
+
+    <section class="linkAndTable">
         <title>Petach Tikva</title>
         <a href="https://www.google.com/maps?q=petah+tikva&rlz=1C1CHBF_enIL1035IL1035&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi77-3Qyvb7AhUECxoKHfYGBKMQ_AUoAXoECAEQAw">Google Maps-Peatch tikva</a>
-        <br><br>
         <table>
             <tr>
                 <th>Pros</th>
@@ -67,10 +68,9 @@
             </tr>
 
         </table>
-    
     </section>
-<div style="text-align: center;">
-        <button class="See-More" >click to see more</button>
+<div class="See-More" >
+        <button id="See-More" >click to see more</button>
 </div>
 <footer>
     <div class="name">Yuval weiss</div>

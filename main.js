@@ -57,7 +57,7 @@ for (let i = 0; i < aboutMePictures.pictures.length; i++) {
   img.style.display= `inline-Block`;
   let p = document.createElement(`p`);
   p.textContent = element.description;
-  p.style.display= `inline-Block`;
+  p.style.display= `flex`;
   document.querySelector(`section`).appendChild(img);
   document.querySelector(`section`).appendChild(p);
   }

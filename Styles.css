@@ -1,28 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
 header{
    position: sticky;
    top:0;
    z-index:2;
-   background-color: rgb(202, 183, 202); 
-   padding: 10px;
-}
+   background-color: white; 
+   color: rgb(42, 40, 40);
+   display: flex;
+   justify-content: flex-end;
+   align-content: space-between;
+   flex-wrap: wrap;
+   align-items: center;}
 
-footer{
-    position: fixed;
-    bottom:0;
-    z-index:2;
-    padding: 10px;
-    background-color: gray;
-}
-.name{
-    display: inline-block;
-    margin-right: 200px;
 
-}
-
-.date{
-    display: inline-block;
-    margin-left: 750px;
-}
 
 .headline{
     border-top: 20px;
@@ -34,25 +29,32 @@ footer{
     font-family: cursive;
     font: bold;
 }
-.First-page{
-    border-top: 20px;
-    margin-left: 5px;
-    display: inline-block;
-    font-family: cursive;
-    
-}
-.Second-page{
-    border-top: 20px;
-    margin-left: 5px;
+
+.headerbuttons{
     display: inline-block;
     font-family: cursive;
 }
 
-.switch-mode{
-    border-top: 20px;
-    margin-left: 5px;
-    display: inline-block;
-    font-family: cursive;
+section{
+    display: flex;
+    flex-direction: row;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+.content h3{
+    text-align: center;
+}
+.content h4{
+    text-decoration: underline;
 }
 
 .dark-mode{
@@ -61,16 +63,24 @@ footer{
     font-family:cursive;
     }
 
+
+
 h1 {
     text-align: center;
     font-family: 'Rubik Vinyl', cursive;
     font-size: 100px;
   }
 
+.gallery{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
 img{
     width: 100px;
     height: 100px;
     margin: 10px;
+    border-radius: 20px;
 }
   
 .Middle-picture{
@@ -80,6 +90,16 @@ img{
 .Left-picture{
     border-radius: 4px solid black;
 }
+
+
+.favoriteFood{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 
 #Second_food{
     font-family:'Rubik Vinyl', cursive;
@@ -91,6 +111,17 @@ img{
 
 a:visited{
     color:blue;
+}
+
+
+.linkAndTable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.linkAndTable a{
+    padding: 10px;
 }
 
 a:active{
@@ -108,12 +139,17 @@ button:active{
     box-shadow: 0 5px #666;
     transform: translateY(4px);
 }
-
 .See-More{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+#See-More{
     color: white;
     background-color: blue;
     padding: 8px;
     margin-bottom: 100px;
+
 }
 
 
@@ -126,4 +162,14 @@ table, th, td {
 body{
     background-color: rgb(238, 177, 192);
     font-family:cursive;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+    z-index:2;
+    width: 100vw;
+    background-color: gray;
+    display: flex;
+    justify-content: space-between
 }
