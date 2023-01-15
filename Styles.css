@@ -72,24 +72,30 @@ h1 {
   }
 
 .gallery{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
     margin: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center
+
 }
 img{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin: 10px;
     border-radius: 20px;
 }
   
 .Middle-picture{
     border: 2px solid black;
+    grid-row: 1;
+    grid-column: 2;
 }
 
 .Left-picture{
     border-radius: 4px solid black;
-}
+    grid-row: 1;
+    grid-column: 1;}
 
 
 .favoriteFood{
