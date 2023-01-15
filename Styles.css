@@ -74,30 +74,51 @@ h1 {
 .gallery{
     display: grid;
     margin: 20px;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3,1fr);
-    justify-items: center
-
-}
-img{
-    width: 150px;
-    height: 150px;
-    margin: 10px;
-    border-radius: 20px;
-}
-  
-.Middle-picture{
-    border: 2px solid black;
-    grid-row: 1;
-    grid-column: 2;
+    width: 100%;
+    grid-template-columns: repeat(7, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
 }
 
 .Left-picture{
-    border-radius: 4px solid black;
-    grid-row: 1;
-    grid-column: 1;}
+    height: 200px;
+    width: 400px;
+    grid-row: 1/ 3;
+    grid-column: 1/ span 4;
+}
 
-
+.Middle-picture{
+    height: 100px;
+    width: 100px;
+    grid-row:1/3;
+    grid-column: 7 ;
+}
+.Right-picture{
+    grid-row:1/3 ;
+    grid-column: 5/7 ;
+    height: 100px;
+    width: 200px;
+}
+.photo1{
+    grid-row: 3;
+    grid-column: 1/3 ;
+    height: 100px;
+    width: 200px;
+}
+.photo2{
+    grid-row: 3;
+    grid-column: 3/5 ;
+    height: 100px;
+    width: 200px;
+}
+.photo3{
+    grid-row: 2/3;
+    grid-column: 5/8 ;
+    height: 200px;
+    width: 300px;
+    
+}
 .favoriteFood{
     text-align: center;
     display: flex;
